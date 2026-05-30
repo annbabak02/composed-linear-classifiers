@@ -1,0 +1,17 @@
+family,f1_mean,pr_auc_mean
+BaselineRandomForest,0.7456,0.804875
+BaselineMLP,0.709075,0.781075
+BaselineKernelSVM,0.66885,0.7663
+BaselineLDA,0.66135,0.707175
+SplineFeaturesClassifier,0.65564375,0.7008
+PiecewiseLinearClassifier,0.63445,0.68251875
+BaselineLogisticRegression,0.6331249999999999,0.72555
+PolynomialFeaturesClassifier,0.62371875,0.65801875
+MixtureOfLinearExpertsClassifier,0.612575,0.67494375
+CascadeLinearClassifier,0.60990625,0.66213125
+MaxOfLinearClassifier,0.59785,0.67114375
+FuzzyLogicLinearClassifier,0.59229375,0.64800625
+LinearBoostClassifier,0.572,0.6415000000000001
+BaggingFeatureSubspaceClassifier,0.567175,0.66809375
+BaselineNaiveBayes,0.47055,0.5242
+BaselineElasticNet,0.21335,

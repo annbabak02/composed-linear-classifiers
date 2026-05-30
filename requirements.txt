@@ -1,0 +1,10 @@
+numpy==2.1.3
+pandas==2.3.1
+scikit-learn==1.7.1
+optuna==4.8.0
+matplotlib==3.10.3
+
+# Optional nonlinear baselines. Pin exact versions after the final full rerun
+# if the committee requires bit-level reproducibility of these models.
+xgboost
+lightgbm

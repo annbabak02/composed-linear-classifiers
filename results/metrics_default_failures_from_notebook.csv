@@ -1,0 +1,9 @@
+dataset,shape,pos_rate,model,error
+breast_cancer,"569, 30",0.3726,BaselineXGBoost,ModuleNotFoundError: No module named 'xgboost'
+breast_cancer,"569, 30",0.3726,BaselineLightGBM,ModuleNotFoundError: No module named 'lightgbm'
+bank_marketing,"45211, 16",0.1170,BaselineXGBoost,ModuleNotFoundError: No module named 'xgboost'
+bank_marketing,"45211, 16",0.1170,BaselineLightGBM,ModuleNotFoundError: No module named 'lightgbm'
+adult,"48842, 14",0.2393,BaselineXGBoost,ModuleNotFoundError: No module named 'xgboost'
+adult,"48842, 14",0.2393,BaselineLightGBM,ModuleNotFoundError: No module named 'lightgbm'
+credit_card_fraud,"284807, 29",0.0017,BaselineXGBoost,ModuleNotFoundError: No module named 'xgboost'
+credit_card_fraud,"284807, 29",0.0017,BaselineLightGBM,ModuleNotFoundError: No module named 'lightgbm'

@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+
+# Runtime outputs
+results/metrics_default.csv
+results/metrics_default_failures.csv
+results/metrics_tuned.csv
+results/metrics_tuned_failures.csv
+
+# OpenML/sklearn caches and local notebooks
+scikit_learn_data/
+.ipynb_checkpoints/

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "composed-linear-classifiers-vkr"
+version = "0.1.0"
+description = "Research code for composed nonlinear classifiers built from linear models."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Anna Babak" }]
+dependencies = [
+  "numpy>=2.1",
+  "pandas>=2.3",
+  "scikit-learn>=1.7",
+  "optuna>=4.8",
+  "matplotlib>=3.10",
+]
+
+[project.optional-dependencies]
+boosting = ["xgboost", "lightgbm"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

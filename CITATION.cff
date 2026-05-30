@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research code, cite the thesis repository."
+title: "Composed nonlinear classifiers based on linear models"
+authors:
+  - family-names: "Babak"
+    given-names: "Anna"
+year: 2026
+type: software
+keywords:
+  - binary classification
+  - linear models
+  - nonlinear classifiers
+  - scikit-learn
+  - optuna

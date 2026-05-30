@@ -1,0 +1,21 @@
+dataset,shape,pos_rate,model,f1,pr_auc,roc_auc
+adult,"48842, 14",0.2393,BaselineRandomForest,0.6765,0.7814,0.9069
+adult,"48842, 14",0.2393,SplineFeaturesClassifier[logistic],0.669,0.7858,0.9123
+adult,"48842, 14",0.2393,SplineFeaturesClassifier[sgd],0.6661,0.7758,0.9082
+adult,"48842, 14",0.2393,BaselineMLP,0.6504,0.7681,0.9053
+adult,"48842, 14",0.2393,PolynomialFeaturesClassifier[logistic],0.6499,0.7629,0.9033
+bank_marketing,"45211, 16",0.117,SplineFeaturesClassifier[lda],0.5164,0.5479,0.9012
+bank_marketing,"45211, 16",0.117,LinearBoostClassifier[logistic],0.5133,0.4205,0.8579
+bank_marketing,"45211, 16",0.117,BaselineRandomForest,0.509,0.6025,0.9273
+bank_marketing,"45211, 16",0.117,PolynomialFeaturesClassifier[lda],0.496,0.5216,0.8933
+bank_marketing,"45211, 16",0.117,PiecewiseLinearClassifier[lda],0.4756,0.5051,0.8836
+breast_cancer,"569, 30",0.3726,MixtureOfLinearExpertsClassifier[logistic],0.971,0.9951,0.996
+breast_cancer,"569, 30",0.3726,BaggingFeatureSubspaceClassifier[sgd],0.9665,0.9936,0.9952
+breast_cancer,"569, 30",0.3726,FuzzyLogicLinearClassifier[logistic],0.9663,0.9952,0.996
+breast_cancer,"569, 30",0.3726,FuzzyLogicLinearClassifier[lda],0.9662,0.9831,0.9937
+breast_cancer,"569, 30",0.3726,BaggingFeatureSubspaceClassifier[logistic],0.9657,0.995,0.9959
+credit_card_fraud,"284807, 29",0.0017,BaselineRandomForest,0.8588,0.8487,0.9497
+credit_card_fraud,"284807, 29",0.0017,SplineFeaturesClassifier[logistic],0.8327,0.8425,0.9785
+credit_card_fraud,"284807, 29",0.0017,BaselineMLP,0.8218,0.8365,0.9713
+credit_card_fraud,"284807, 29",0.0017,PolynomialFeaturesClassifier[lda],0.8214,0.7342,0.9587
+credit_card_fraud,"284807, 29",0.0017,SplineFeaturesClassifier[lda],0.8195,0.7173,0.9522
